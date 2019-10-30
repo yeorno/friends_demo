@@ -24,7 +24,7 @@ CREATE TABLE `admin` (
   `username` varchar(20) NOT NULL DEFAULT '',
   `password` varchar(60) NOT NULL DEFAULT '',
   `role_id` int(11) NOT NULL DEFAULT '0' COMMENT '角色ID',
-  `source_id` int(3) NOT NULL DEFAULT '0' COMMENT 来源',
+  `source_id` int(3) NOT NULL DEFAULT '0' COMMENT '来源',
   `mid` int(11) NOT NULL DEFAULT '0' COMMENT '商户号',
   `merchat` int(11) NOT NULL DEFAULT '0' COMMENT '子商户号',
   `agentpay_mid` int(11) NOT NULL DEFAULT '0' COMMENT '代付商户号',
